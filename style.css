@@ -1,0 +1,98 @@
+
+body {
+    background-size:cover;
+    background-attachment: fixed;
+    background-image: url(back5.webp);
+}
+
+div {
+    cursor:url(/iconmonstr-cursor-5-32.png),auto;
+}
+
+@font-face{
+    src: url(VT323-Regular.ttf);
+    font-family: 'VT323';
+    font-size: 120px;
+}
+marquee b{
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+    font-size: 50px;
+    font-weight: 50px;
+    font-family:'VT323';
+    position: relative;
+    top: 200px;
+    left: 100px;
+    text-align: center;
+}
+marquee{
+    position: relative;
+    left: 90px;
+    top: -120px;
+    transform:scale(70%,70%);
+   
+    
+}
+#aSide1{
+    height: 99vh;
+    width: 29vw;
+    position: absolute;
+    top: -14px;
+    left: 1305px;
+    transform: translateX(-50%);
+    rotate: 360%;
+    display: flex;
+}
+#aSide2{
+    height: 100vh;
+    width: 60vw;
+    position:absolute;
+    top: 570px;
+    left: 1600px;
+    transform: translate(-100%,-100%);
+    opacity:10;
+}   
+
+    
+.video-container {
+    position:fixed;
+    top: 290px;;
+    right: -400px;
+    width:100%;
+    height:100%;
+    justify-content: center;
+    opacity: 1;
+}
+
+.video-container video {
+    width: 90%;
+    max-width: 720px;
+    transform: scale(1);
+}
+model-viewer{
+    width: 100%;
+    height: 100%;
+}
+@font-face{
+    src: url(Orbitron-VariableFont_wght.ttf);
+    font-family: 'Orbitron';
+    
+}
+a {
+    font-size: 30px;
+    font-family:'Orbitron';
+    color: black;
+    position: relative;
+    top: 116px;
+    left: 65px;
+    transform: scale(100%,100%);
+    width: 100px;
+    height: 100px;
+    max-width: 500px;
+}
+div .shows{
+    position: relative;
+    top: 100px;
+    left: 100px
+
+}

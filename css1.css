@@ -1,0 +1,13 @@
+.about{
+    font-size: small;
+    color: rgb(0, 0, 0);
+    font-family:'VT323';
+    position: relative;
+    top: 35px;
+    left: 16px;
+    font: 100;
+    opacity: 0.5;
+    height: 85px;
+    width: 410px;
+
+}
